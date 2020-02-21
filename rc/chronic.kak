@@ -63,8 +63,7 @@ provide-module chronic %{
     evaluate-commands -save-regs '|' %{
       set-register | %sh{
         . "$kak_opt_chronic_path/prelude.sh"
-        kak_quoted_arguments=$(kak_escape "$@")
-        printf 'chronic %s' "$kak_quoted_arguments"
+        kak_escape chronic "$@"
       }
       execute-keys '|<ret>'
     }
@@ -84,12 +83,8 @@ provide-module chronic %{
     evaluate-commands %sh{
       . "$kak_opt_chronic_path/prelude.sh"
       regex=$(printf '%s' "$kak_selection" | chronic --format '(%s)' --separator '|' "$@")
-      kak_quoted_regex=$(kak_escape "$regex")
-      kak_quoted_message=$(kak_escape "{Information}Search register: $regex{Default}")
-      printf '
-        set-register / %s
-        echo -markup %s
-      ' "$kak_quoted_regex" "$kak_quoted_message"
+      kak_escape set-register / "$regex"
+      kak_escape echo -markup "{Information}Search register: $regex{Default}"
     }
   }
 
