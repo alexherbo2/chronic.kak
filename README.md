@@ -7,7 +7,10 @@
 
 ## Dependencies
 
+- [prelude.kak]
 - [type-expand.kak]
+
+[prelude.kak]: https://github.com/alexherbo2/prelude.kak
 
 ## Installation
 
