@@ -11,6 +11,7 @@
 - [type-expand.kak]
 
 [prelude.kak]: https://github.com/alexherbo2/prelude.kak
+[type-expand.kak]: https://github.com/alexherbo2/type-expand.kak
 
 ## Installation
 
@@ -66,4 +67,3 @@ map global insert <a-|> '<esc>: enter-user-mode chronic-insert<ret>' -docstring 
 
 [Chronic]: https://github.com/alexherbo2/chronic
 [Kakoune]: https://kakoune.org
-[type-expand.kak]: https://github.com/alexherbo2/type-expand.kak
