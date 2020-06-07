@@ -2,8 +2,8 @@
 
 [Chronic] integration for [Kakoune].
 
-[![Chronic demo](https://img.youtube.com/vi_webp/P0m9RHs_0Wo/maxresdefault.webp)](https://youtu.be/P0m9RHs_0Wo "YouTube – Chronic demo")
-[![YouTube Play Button](https://www.iconfinder.com/icons/317714/download/png/16)](https://youtu.be/P0m9RHs_0Wo) · [Chronic demo](https://youtu.be/P0m9RHs_0Wo)
+[![Chronic](https://img.youtube.com/vi_webp/P0m9RHs_0Wo/maxresdefault.webp)](https://youtube.com/playlist?list=PLdr-HcjEDx_nVgUW8io9HG39BDyp96u3s "YouTube – Chronic")
+[![YouTube Play Button](https://www.iconfinder.com/icons/317714/download/png/16)](https://youtube.com/playlist?list=PLdr-HcjEDx_nVgUW8io9HG39BDyp96u3s) · [Chronic](https://youtube.com/playlist?list=PLdr-HcjEDx_nVgUW8io9HG39BDyp96u3s)
 
 ## Dependencies
 
