@@ -1,5 +1,9 @@
 provide-module chronic %{
 
+  # Modules ────────────────────────────────────────────────────────────────────
+
+  require-module prelude
+
   declare-user-mode chronic
   declare-user-mode chronic-insert
 
