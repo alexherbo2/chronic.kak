@@ -31,27 +31,27 @@ provide-module chronic %{
   # Mappings ───────────────────────────────────────────────────────────────────
 
   # Pipe
-  map global chronic | ': chronic<space>' -docstring 'Pipe'
-  map global chronic + ': chronic --input ''%s + tomorrow'' ''%''<left>' -docstring 'Increment a day'
-  map global chronic <minus> ': chronic --input ''%s + yesterday'' ''%''<left>' -docstring 'Decrement a day'
-  map global chronic '%' ': chronic ''%''<left>' -docstring 'Format'
-  map global chronic F ': chronic ''%F''<ret>' -docstring 'Format: %F'
-  map global chronic R ': chronic ''%R''<ret>' -docstring 'Format: %R'
-  map global chronic T ': chronic ''%T''<ret>' -docstring 'Format: %T'
+  map -docstring 'Pipe' global chronic | ': chronic<space>'
+  map -docstring 'Increment a day' global chronic + ': chronic --input ''%s + tomorrow'' ''%''<left>'
+  map -docstring 'Decrement a day' global chronic <minus> ': chronic --input ''%s + yesterday'' ''%''<left>'
+  map -docstring 'Format' global chronic '%' ': chronic ''%''<left>'
+  map -docstring 'Format: %F' global chronic F ': chronic ''%F''<ret>'
+  map -docstring 'Format: %R' global chronic R ': chronic ''%R''<ret>'
+  map -docstring 'Format: %T' global chronic T ': chronic ''%T''<ret>'
 
   # Search
-  map global chronic / ': chronic-search<space>' -docstring 'Search'
-  map global chronic <a-/> ': chronic-search --input ''today'' ''%''<left>' -docstring 'Search this day'
-  map global chronic <a-?> ': chronic-search --input ''01 January to 31 December'' ''%''<left>' -docstring 'Search this year'
-  map global chronic 1 ': chronic-search --input ''today'' ''(?S)TODO.+%''<left>' -docstring 'Search TODO for one day'
-  map global chronic 7 ': chronic-search --input ''today → 7 days'' ''(?S)TODO.+%''<left>' -docstring 'Search TODO for one week'
+  map -docstring 'Search' global chronic / ': chronic-search<space>'
+  map -docstring 'Search this day' global chronic <a-/> ': chronic-search --input ''today'' ''%''<left>'
+  map -docstring 'Search this year' global chronic <a-?> ': chronic-search --input ''01 January to 31 December'' ''%''<left>'
+  map -docstring 'Search TODO for one day' global chronic 1 ': chronic-search --input ''today'' ''(?S)TODO.+%''<left>'
+  map -docstring 'Search TODO for one week' global chronic 7 ': chronic-search --input ''today → 7 days'' ''(?S)TODO.+%''<left>'
 
   # Insert
-  map global chronic-insert | ': type-expand-command-prompt<ret>chronic<space>' -docstring 'Expand time'
-  map global chronic-insert '%' ': type-expand-command-prompt<ret>chronic ''%''<left>' -docstring 'Format'
-  map global chronic-insert F ': type-expand-command chronic ''%F''<ret>' -docstring 'Format: %F'
-  map global chronic-insert R ': type-expand-command chronic ''%R''<ret>' -docstring 'Format: %R'
-  map global chronic-insert T ': type-expand-command chronic ''%T''<ret>' -docstring 'Format: %T'
+  map -docstring 'Expand time' global chronic-insert | ': type-expand-command-prompt<ret>chronic<space>'
+  map -docstring 'Format' global chronic-insert '%' ': type-expand-command-prompt<ret>chronic ''%''<left>'
+  map -docstring 'Format: %F' global chronic-insert F ': type-expand-command chronic ''%F''<ret>'
+  map -docstring 'Format: %R' global chronic-insert R ': type-expand-command chronic ''%R''<ret>'
+  map -docstring 'Format: %T' global chronic-insert T ': type-expand-command chronic ''%T''<ret>'
 
   # Commands ───────────────────────────────────────────────────────────────────
 

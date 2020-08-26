@@ -61,8 +61,8 @@ See [`chronic.kak`](rc/chronic.kak) to extend or override mappings.
 ## Configuration
 
 ``` kak
-map global normal <a-|> ': enter-user-mode chronic<ret>' -docstring 'Enter Chronic mode'
-map global insert <a-|> '<esc>: enter-user-mode chronic-insert<ret>' -docstring 'Enter Chronic insert mode'
+map global normal -docstring 'Enter Chronic mode' <a-|> ': enter-user-mode chronic<ret>'
+map global insert -docstring 'Enter Chronic mode' <a-|> '<esc>: enter-user-mode chronic-insert<ret>'
 ```
 
 [Chronic]: https://github.com/alexherbo2/chronic
