@@ -93,5 +93,3 @@ provide-module chronic %{
   alias global cs chronic-search
 
 }
-
-require-module chronic

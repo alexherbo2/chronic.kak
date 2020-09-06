@@ -17,6 +17,10 @@
 
 Add [`chronic.kak`](rc/chronic.kak) to your autoload or source it manually.
 
+``` kak
+require-module chronic
+```
+
 ## Usage
 
 Select a date or a date expression and pipe to `chronic` or `cr` with a time format.
