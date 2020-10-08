@@ -53,6 +53,9 @@ provide-module chronic %{
   map -docstring 'Format: %F' global chronic-insert F ': type-expand-command chronic ''%F''<ret>'
   map -docstring 'Format: %R' global chronic-insert R ': type-expand-command chronic ''%R''<ret>'
   map -docstring 'Format: %T' global chronic-insert T ': type-expand-command chronic ''%T''<ret>'
+  map -docstring 'Insert: %F' global chronic-insert f 'i%sh(date +%F)<esc>: type-expand-expansion<ret>'
+  map -docstring 'Insert: %R' global chronic-insert r 'i%sh(date +%R)<esc>: type-expand-expansion<ret>'
+  map -docstring 'Insert: %T' global chronic-insert t 'i%sh(date +%T)<esc>: type-expand-expansion<ret>'
 
   # Commands ───────────────────────────────────────────────────────────────────
 

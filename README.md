@@ -63,6 +63,9 @@ Enter `chronic-insert` mode with `enter-user-mode chronic-insert`.
 - <kbd>F</kbd> → Format: `%F`
 - <kbd>R</kbd> → Format: `%R`
 - <kbd>T</kbd> → Format: `%T`
+- <kbd>f</kbd> → Insert: `%F`
+- <kbd>r</kbd> → Insert: `%R`
+- <kbd>t</kbd> → Insert: `%T`
 
 See [`chronic.kak`](rc/chronic.kak) to extend or override mappings.
 
