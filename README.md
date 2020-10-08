@@ -50,7 +50,7 @@ Enter `chronic` mode with `enter-user-mode chronic`.
 - <kbd>/</kbd> → Search
 - <kbd>Alt</kbd> + <kbd>/</kbd> → Search this day
 - <kbd>Alt</kbd> + <kbd>?</kbd> → Search this year
-- <kbd>0</kbd> → Search from the current day (`YYYY-MM-DD`)
+- <kbd>0</kbd> → Search dates (`YYYY-MM-DD`) from today
 - <kbd>1</kbd> → Search **TODO** for one day
 - <kbd>7</kbd> → Search **TODO** for one week
 
