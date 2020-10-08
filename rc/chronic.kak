@@ -43,6 +43,7 @@ provide-module chronic %{
   map -docstring 'Search' global chronic / ': chronic-search<space>'
   map -docstring 'Search this day' global chronic <a-/> ': chronic-search --input ''today'' ''%''<left>'
   map -docstring 'Search this year' global chronic <a-?> ': chronic-search --input ''01 January to 31 December'' ''%''<left>'
+  map -docstring 'Search the current day (YYYY-MM-DD)' global chronic 0 ': chronic-search --input ''today'' ''%F''<ret>'
   map -docstring 'Search TODO for one day' global chronic 1 ': chronic-search --input ''today'' ''(?S)TODO.+%''<left>'
   map -docstring 'Search TODO for one week' global chronic 7 ': chronic-search --input ''today → 7 days'' ''(?S)TODO.+%''<left>'
 
