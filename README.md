@@ -2,6 +2,9 @@
 
 [Chronic] integration for [Kakoune].
 
+[Chronic]: https://github.com/alexherbo2/chronic
+[Kakoune]: https://kakoune.org
+
 [![Chronic](https://img.youtube.com/vi_webp/P0m9RHs_0Wo/maxresdefault.webp)](https://youtube.com/playlist?list=PLdr-HcjEDx_nVgUW8io9HG39BDyp96u3s "YouTube – Chronic")
 [![YouTube Play Button](https://www.iconfinder.com/icons/317714/download/png/16)](https://youtube.com/playlist?list=PLdr-HcjEDx_nVgUW8io9HG39BDyp96u3s) · [Chronic](https://youtube.com/playlist?list=PLdr-HcjEDx_nVgUW8io9HG39BDyp96u3s)
 
@@ -68,6 +71,3 @@ See [`chronic.kak`](rc/chronic.kak) to extend or override mappings.
 map -docstring 'Chronic' global normal <a-|> ': enter-user-mode chronic<ret>'
 map -docstring 'Chronic' global insert <a-|> '<esc>: enter-user-mode chronic-insert<ret>'
 ```
-
-[Chronic]: https://github.com/alexherbo2/chronic
-[Kakoune]: https://kakoune.org
