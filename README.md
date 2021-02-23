@@ -10,10 +10,10 @@
 
 ## Dependencies
 
-- [prelude.kak]
+- [kakoune.cr]
 - [type-expand.kak]
 
-[prelude.kak]: https://github.com/alexherbo2/prelude.kak
+[kakoune.cr]: https://github.com/alexherbo2/kakoune.cr
 [type-expand.kak]: https://github.com/alexherbo2/type-expand.kak
 
 ## Installation
